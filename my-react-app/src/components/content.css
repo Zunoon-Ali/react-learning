@@ -1,0 +1,15 @@
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0; /* Add spacing from navbar */
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Ensure it spans the container */
+  max-width: 800px; /* Prevents it from stretching too much */
+  margin: auto; /* Keeps it centered */
+}

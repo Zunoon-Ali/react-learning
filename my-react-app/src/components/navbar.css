@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 0px;
+  color: white;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+}
+.navbar h1 {
+  margin-left: 16px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  margin-right: 35px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
